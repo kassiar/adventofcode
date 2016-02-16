@@ -8,6 +8,7 @@ set(AOC_SOURCES main.cpp
 				day5.h
 				day6.h
 				day7.h
+				day8.h
 				)
 add_executable(AOC ${AOC_SOURCES})
 target_include_directories(AOC PRIVATE ${Boost_INCLUDE_DIRS})

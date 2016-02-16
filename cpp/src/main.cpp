@@ -4,7 +4,8 @@
 //#include "day4.h"
 //#include "day5.h"
 //#include "day6.h"
-#include "day7.h"
+//#include "day7.h"
+#include "day8.h"
 
 #include <iostream>
 
@@ -18,7 +19,8 @@ int main(int argc, char** argv)
         //Day4::execute();
         //Day5::execute();
         //Day6::execute();
-        Day7::execute();
+        //Day7::execute();
+        Day8::execute();
     }
     catch (const std::exception& e) {
         std::cout << e.what() << std::endl;
